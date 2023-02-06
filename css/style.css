@@ -89,6 +89,21 @@ main{
     margin: 10px 0;
 }
 
+#testimonials .container > div{
+    margin: 10px;
+}
+
+#benefits{
+    background-color: var(--secondary-color);
+}
+
+#benefits .container > div{
+    margin: 20px 0;
+}
+
+#benefits .card{
+    margin: 20px 0;
+}
 
 /******************************************
 RESPONSIVE RULES
