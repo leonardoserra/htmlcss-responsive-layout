@@ -17,6 +17,7 @@ DEBUG RULES
 
 
 .debug-box {
+    text-align: center;
     height: 80px;
     background-color: var(--primary-color-light);
 }
@@ -62,6 +63,10 @@ main{
     min-width: 380px;
     margin: auto;
     background-color: var(--primary-color);
+}
+
+.card{
+    padding: 10px 0;
 }
 
 
