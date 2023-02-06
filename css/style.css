@@ -151,7 +151,6 @@ TABLET
    }
 
    #benefits .card{
-    display: inline-block;
     width: calc(50% - 20px);
     margin-left: 10px;
     margin-right: 10px;
@@ -186,4 +185,7 @@ DESKTOP
         align-items: flex-end;       
     }
 
+    #benefits .card{
+        width: calc(100% / 3 - 20px)
+       }
  }
