@@ -7,3 +7,44 @@ GLOBAL RULES
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+
+/******************************************
+DEBUG RULES
+******************************************/
+
+
+.debug-box {
+    height: 80px;
+    background-color: var(--primary-color-light);
+}
+
+
+/******************************************
+ STYLE RULES
+******************************************/
+:root {
+    --primary-color: rgb(0, 132, 253);
+    --primary-color-light: rgb(181, 221, 255);
+}
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.container{
+    margin:auto;
+    min-width:480px;
+    max-width:768px;
+    background-color: var(--primary-color);
+}
