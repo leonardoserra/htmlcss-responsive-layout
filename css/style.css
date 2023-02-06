@@ -134,7 +134,13 @@ DESKTOP
         display: flex;
     }
 
-    #tools .col{
+    #tools .col, #planning .col{
         width: 50%;
     }
+
+    #planning .columns {
+        display: flex; 
+        align-items: flex-end;       
+    }
+
  }
