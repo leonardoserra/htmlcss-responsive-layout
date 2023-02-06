@@ -90,7 +90,7 @@ main{
 }
 
 #testimonials .container > div{
-    margin: 10px;
+    margin: 10px 0;
 }
 
 #benefits{
@@ -143,6 +143,22 @@ TABLET
 
    #testimonials .col-left{
     min-width: calc(100% / 3);
+   }
+
+   #benefits .cards{
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+   #benefits .card{
+    display: inline-block;
+    width: calc(50% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+   }
+
+   #benefits .card-box{
+    margin: 0 -20px;
    }
 }
 
