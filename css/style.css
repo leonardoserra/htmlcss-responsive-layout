@@ -105,6 +105,10 @@ main{
     margin: 20px 0;
 }
 
+.col-left > div, .col-right > div{
+    margin-top: 20px;
+}
+
 /******************************************
 RESPONSIVE RULES
 ******************************************/
