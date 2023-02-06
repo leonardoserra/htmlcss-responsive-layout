@@ -30,6 +30,14 @@ DEBUG RULES
     --primary-color-light: rgb(181, 221, 255);
 }
 
+body{
+    position: relative;
+}
+
+main{
+    padding-top:100px;
+}
+
 .flex{
     display: flex;
 }
@@ -42,9 +50,34 @@ DEBUG RULES
     align-items: center;
 }
 
-.container{
-    margin:auto;
-    min-width:480px;
-    max-width:768px;
+#header-intro{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: var(--primary-color);
 }
+
+.container{
+    min-width: 380px;
+    margin: auto;
+    background-color: var(--primary-color);
+}
+
+
+/******************************************
+RESPONSIVE RULES
+******************************************/
+
+
+@media screen and (min-width: 780px) {
+   .container{
+    max-width: 760px;    
+   }
+}
+
+@media screen and (min-width: 1200px) {
+    .container{
+     max-width: 95%;    
+    }
+ }
