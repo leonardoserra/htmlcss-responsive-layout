@@ -27,10 +27,18 @@ DEBUG RULES
 /******************************************
 STYLE RULES
 ******************************************/
+
+
+/*var palette colori*/
 :root {
-    --primary-color: rgb(0, 132, 253);
-    --primary-color-light: rgb(181, 221, 255);
+    --primary-color: #0084fd;
+    --primary-color-light: #b5ddff;
+    --secondary-color: #9792e4;
+    --secondary-color-light: #bcb5ee;
 }
+/*************************/
+
+
 
 body{
     position: relative;
