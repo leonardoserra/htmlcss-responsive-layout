@@ -42,6 +42,7 @@ STYLE RULES
     --primary-color-light: #b5ddff;
     --secondary-color: #9792e4;
     --secondary-color-light: #bcb5ee;
+    --tertiary-color: #333333;
 }
 /*************************/
 
@@ -121,6 +122,14 @@ main{
     margin-top: 20px;
 }
 
+footer{
+    background-color: var(--tertiary-color);
+    text-align: center;
+}
+
+footer div{
+    padding: 15px;
+}
 /******************************************
 RESPONSIVE RULES
 ******************************************/
