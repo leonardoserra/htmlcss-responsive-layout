@@ -94,7 +94,7 @@ RESPONSIVE RULES
     width: calc(100% / 3 - 30px);
    }
 
-   #tools .prima-card{
+   #tools .card:first-child{
     width: calc(100% / 3 * 2 - 30px);
    }
 }
