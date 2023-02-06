@@ -20,10 +20,10 @@ DEBUG RULES
     text-align: center;
     height: 80px;
     background-color: var(--primary-color-light);
+}
+.border-debug{
     border: 1px dashed red;
 }
-
-
 /******************************************
 STYLE RULES
 ******************************************/
@@ -111,12 +111,10 @@ DESKTOP
      max-width: 95%;    
     }
 
-    #tools .card:first-child {
+    #tools .card:first-child{
         display: flex;
     }
-
-    #tools .card:first-child > div:last-child{
-      display: inline-block;
-       }
-
+    .col{
+        width: 50%;
+    }
  }
