@@ -117,6 +117,18 @@ TABLET
    #tools .card:first-child{
         width: calc(100% / 3 * 2 - 30px);
    }
+
+   #testimonials .columns{
+    display: flex;
+   }
+
+   #testimonials .col-right{
+    flex-grow: 1;
+   }
+
+   #testimonials .col-left{
+    min-width: calc(100% / 3);
+   }
 }
 
 
