@@ -25,7 +25,7 @@ DEBUG RULES
 
 
 /******************************************
- STYLE RULES
+STYLE RULES
 ******************************************/
 :root {
     --primary-color: rgb(0, 132, 253);
@@ -77,7 +77,9 @@ main{
 RESPONSIVE RULES
 ******************************************/
 
-
+/******
+TABLET
+******/
 @media screen and (min-width: 780px) {
    .container{
     max-width: 760px;  
@@ -87,7 +89,6 @@ RESPONSIVE RULES
   #tools .cards{
     display: flex;
     flex-wrap: wrap;
-   
    }
 
    #tools .card{
@@ -100,10 +101,22 @@ RESPONSIVE RULES
 }
 
 
+/******
+DESKTOP
+******/
 
 
 @media screen and (min-width: 1200px) {
     .container{
      max-width: 95%;    
     }
+
+    #tools .card:first-child {
+        display: flex;
+    }
+
+    #tools .card:first-child > div:last-child{
+      display: inline-block;
+       }
+
  }
