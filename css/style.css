@@ -163,6 +163,18 @@ TABLET
    #benefits .card-box{
     margin: 0 -20px;
    }
+
+   #about-us .columns{
+    display: flex;
+   }
+
+   #about-us .col-left{
+    flex-grow: 1;
+   }
+
+   #about-us .col-right{
+    min-width: calc(100% / 3) ;
+   }
 }
 
 
