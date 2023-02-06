@@ -71,12 +71,15 @@ main{
 .container{
     min-width: 380px;
     margin: auto;
+    padding: 20px;
 }
-.cards{
-    padding: 20px 0;
+
+#planning {
+    background-color: var(--secondary-color);
 }
-.card{
-    margin: 15px;
+
+#planning .col{
+    margin: 10px 0;
 }
 
 
@@ -89,21 +92,23 @@ TABLET
 ******/
 @media screen and (min-width: 780px) {
    .container{
-    max-width: 760px;  
+        max-width: 760px;  
     
    }
 
   #tools .cards{
-    display: flex;
-    flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
    }
 
    #tools .card{
-    width: calc(100% / 3 - 30px);
-   }
+        width: calc(100% / 3 - 30px);
+        margin: 15px;
+    }
+   
 
    #tools .card:first-child{
-    width: calc(100% / 3 * 2 - 30px);
+        width: calc(100% / 3 * 2 - 30px);
    }
 }
 
@@ -115,14 +120,14 @@ DESKTOP
 
 @media screen and (min-width: 1200px) {
     .container{
-     max-width: 95%;   
+        max-width: 95%;   
     }
 
     #tools .card:first-child{
         display: flex;
     }
 
-    .col{
+    #tools .col{
         width: 50%;
     }
  }
