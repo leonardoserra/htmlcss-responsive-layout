@@ -264,6 +264,34 @@ section{
     margin: 10px 0;
 }
 
+#testimonials .wrapper{
+    padding: 15px;
+}
+
+#testimonials .wrapper > div{
+    padding: 15px;
+}
+
+#testimonials .columns{
+    padding: 30px;
+    background-color: var(--secondary-color);
+}
+#testimonials .col-left{
+    padding: 50px;
+}
+
+#testimonials .col-right > div {
+    padding: 15px 0;
+}
+
+
+#testimonials .col-left img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
 /*benefits*/
 #benefits{
     background-color: var(--secondary-color);
