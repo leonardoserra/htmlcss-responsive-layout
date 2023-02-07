@@ -330,9 +330,8 @@ section{
 }
 
 #about-us .icon{
-    position: relative;
-    width: 250px;
-    height: 250px;
+    width: 190px;
+    height: 190px;
 }
 #about-us img{
     width: 100%;
@@ -340,7 +339,11 @@ section{
     border-radius: 50%;
 }
 
-#about-us .icon .i{
+#about-us .icon{
+    position: relative;
+}
+
+#about-us i{
     position: absolute;
     top: 5px;
     right: 0;
