@@ -152,6 +152,11 @@ a {
     text-decoration: none;
 }
 
+p{
+    font-size: 20px;
+    padding: 0 15px;
+}
+
 
 /*****HEADER RULES******/
 
@@ -276,19 +281,15 @@ section{
     padding: 30px;
     background-color: var(--secondary-color);
 }
-#testimonials .col-left{
-    padding: 50px;
-}
 
 #testimonials .col-right > div {
     padding: 15px 0;
 }
 
-
 #testimonials .col-left img{
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
 }
 
