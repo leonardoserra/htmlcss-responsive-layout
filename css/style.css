@@ -184,13 +184,16 @@ main{
 #tools img{
     display: block;
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 #tools .card .col > div, #tools .card .col > img{
-    margin: 20px 20px 0 20px;
+    padding: 20px 20px 0 20px;
 }
 
+#tools .card:first-child > .col:last-child{
+    padding-bottom: 0;
+}
 #tools .card > div{
     padding: 20px;
 }
@@ -362,6 +365,13 @@ DESKTOP
     #tools .col, #planning .col{
         width: 50%;
     }
+
+    #tools .card:first-child > .col:last-child{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
 
     #planning .columns {
         display: flex; 
