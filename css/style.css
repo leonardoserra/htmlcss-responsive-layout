@@ -62,6 +62,10 @@ UTILITY RULES
     padding: 0;
 }
 
+.big-title{
+    font-size: 50px;
+}
+
 /*var palette colori*/
 :root {
     --primary-color: #0084fd;
@@ -95,7 +99,9 @@ UTILITY RULES
     color:var(--secondary-color);
 }
 
-
+.grey-text{
+    color: var(--tertiary-color)
+}
 
 
  /**************/
@@ -153,8 +159,7 @@ a {
 }
 
 p{
-    font-size: 20px;
-    padding: 0 15px;
+    font-size: 18px;
 }
 
 
@@ -301,8 +306,22 @@ section{
     margin: 20px 0;
 }
 
+#benefits-title{
+    padding: 0 40px;
+}
+
+#benefits-title h2{
+    font-size: 30px;
+}
+
 #benefits .card{
+    background-color: var(--white);
     margin: 20px 0;
+    padding: 30px;
+}
+
+#benefits .card > div{
+    padding: 15px 0;
 }
 
 /*about us*/
