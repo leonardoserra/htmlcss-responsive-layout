@@ -73,6 +73,7 @@ main{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 9999;
     width: 100%;
     background-color: var(--primary-color);
 }
@@ -80,6 +81,10 @@ main{
 .container{
     margin: auto;
     padding: 20px;
+}
+
+#tools .card{
+    margin: 15px 0;
 }
 
 #planning {
