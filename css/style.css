@@ -75,6 +75,10 @@ UTILITY RULES
     font-size: 70px;
 }
 
+.italic{
+    font-style: italic;
+}
+
 /*var palette colori*/
 :root {
     --primary-color: #0084fd;
@@ -427,10 +431,13 @@ TABLET
 
     #tools .card{
         width: calc(100% / 3 - 30px);
-        margin: 15px;
+        margin: 10px;
     }
    
-
+    #tools .card > div {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     #tools .card:first-child{
         width: calc(100% / 3 * 2 - 30px);
     }
