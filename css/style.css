@@ -117,7 +117,7 @@ UTILITY RULES
 }
 
 .btn-circle{
-    padding: 20px;
+    padding: 20px 23px;
     border-radius: 50%;
 }
 
@@ -240,6 +240,7 @@ section{
 
 #planning .card{
     background-color: var(--white);
+    padding: 15px;
 }
 
 #planning .btn i{
