@@ -42,6 +42,26 @@ UTILITY RULES
     border-radius: 25px;
 }
 
+.text-center{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.padding-none{
+    padding: 0;
+}
+
 /*var palette colori*/
 :root {
     --primary-color: #0084fd;
@@ -119,28 +139,14 @@ body{
     line-height: 2rem;
 }
 
-.flex{
-    display: flex;
-}
-
-.space-between{
-    justify-content: space-between;
-}
-
-.align-center{
-    align-items: center;
-}
-
 .container{
     margin: auto;
     padding: 20px;
 }
 
-.text-center{
-    text-align: center;
+a {
+    text-decoration: none;
 }
-
-
 
 
 /*****HEADER RULES******/
@@ -199,14 +205,18 @@ section{
 #tools .card:first-child > .col:last-child{
     padding-bottom: 0;
 }
+
 #tools .card > div{
-    padding: 20px;
+    padding: 40px;
 }
 
 #tools .icon > i{
     font-size: 85px;
 }
 
+#tools .card .padding-none{
+    padding: 0;
+}
 /*planning*/
 #planning {
     background-color: var(--secondary-color);
@@ -214,6 +224,10 @@ section{
 
 #planning .col{
     margin: 10px 0;
+}
+
+#img-planning-1{
+    width: 100%;
 }
 
 /*testimonials*/
@@ -359,8 +373,6 @@ DESKTOP
     }
     #header-intro ul a{
         font-size: 18px;
-        text-decoration: none;
-
     }
 
     #tools .card:first-child{
