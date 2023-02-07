@@ -329,6 +329,25 @@ section{
     margin-top: 20px;
 }
 
+#about-us .icon{
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+#about-us img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#about-us .icon .i{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    z-index: 10;
+}
+
+
 /*get started*/
 #get-started{
     background-color: var(--secondary-color);
