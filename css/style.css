@@ -50,7 +50,7 @@ UTILITY RULES
 
 
 
-
+ /*********************/
 /*text palette colori*/
 
 .white-text{
@@ -68,12 +68,23 @@ UTILITY RULES
 
 
 
+ /**************/
 /*Button Rules*/
-
 .btn{
     border-width: 1px;
     border-radius: 50px;
+}
+
+.btn-small{
     padding: 5px 15px;
+}
+
+.btn-long{
+    padding: 7px 35px;
+}
+
+.btn-big{
+    padding: 20px 70px;
 }
 
 .btn-white{
