@@ -383,6 +383,10 @@ section{
     padding: 30px 0;
 }
 
+#get-started .container h5 a{
+    text-decoration: underline;
+}
+
 
 
 
@@ -391,9 +395,15 @@ footer{
     background-color: var(--tertiary-color);
 }
 
+footer .container p{
+    font-size: 12px;
+}
+
 footer div{
     padding: 15px;
 }
+
+
 
 
 
