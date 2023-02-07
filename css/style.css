@@ -265,11 +265,9 @@ section{
 }
 
 /*testimonials*/
-#testimonials .container > div{
-    margin: 10px 0;
-}
 
 #testimonials .wrapper{
+    margin: 10px;
     padding: 15px;
 }
 
@@ -278,6 +276,7 @@ section{
 }
 
 #testimonials .columns{
+    margin: 100px 0;
     padding: 30px;
     background-color: var(--secondary-color);
 }
@@ -371,10 +370,12 @@ TABLET
 
     #testimonials .columns{
         display: flex;
+        gap: 25px;
     }
 
     #testimonials .col-right{
         flex-grow: 1;
+        align-self: center;
     }
 
     #testimonials .col-left{
