@@ -101,7 +101,6 @@ UTILITY RULES
  /**************/
 /*Button Rules*/
 .btn{
-    border-width: 1px;
     border-radius: 50px;
 }
 
@@ -115,6 +114,11 @@ UTILITY RULES
 
 .btn-big{
     padding: 20px 70px;
+}
+
+.btn-circle{
+    padding: 20px;
+    border-radius: 50%;
 }
 
 .btn-white{
@@ -222,12 +226,36 @@ section{
     background-color: var(--secondary-color);
 }
 
-#planning .col{
+#planning .col-1, #planning .col-2{
     margin: 10px 0;
 }
 
 #img-planning-1{
     width: 100%;
+}
+
+#img-planning-2{
+    width: 100%;
+}
+
+#planning .card{
+    background-color: var(--white);
+}
+
+#planning .btn i{
+    font-size: 20px;
+}
+
+#planning .col-1 img, #planning .col-2{
+    padding:30px;
+}
+
+#planning .col-1{
+    padding: 20px 0;
+}
+
+#planning .col-1 > div, #planning .col-2 .card > div{
+    padding: 20px 0;
 }
 
 /*testimonials*/
@@ -306,6 +334,11 @@ TABLET
         width: calc(100% / 3 * 2 - 30px);
     }
 
+    #planning .col-1 h2{
+        font-size: 60px;
+        padding: 20px 0;
+    }
+
     #testimonials .columns{
         display: flex;
     }
@@ -323,15 +356,15 @@ TABLET
         flex-wrap: wrap;
     }
 
-   #benefits .card{
+    #benefits .card{
         width: calc(50% - 20px);
         margin-left: 10px;
         margin-right: 10px;
-   }
+    }
 
-   #benefits .card-box{
+    #benefits .card-box{
         margin: 0 -20px;
-   }
+    }
 
     #about-us .columns{
         display: flex;
@@ -393,6 +426,7 @@ DESKTOP
     #planning .columns {
         display: flex; 
         align-items: flex-end;       
+        gap: 20px;
     }
 
     #benefits .card{
