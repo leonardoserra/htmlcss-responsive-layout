@@ -37,6 +37,9 @@ DEBUG RULES
 UTILITY RULES
 ******************************************/
 
+.rounded-corner{
+    border-radius: 25px;
+}
 
 /*var palette colori*/
 :root {
@@ -86,7 +89,7 @@ UTILITY RULES
 }
 
 .btn-long{
-    padding: 7px 35px;
+    padding: 7px 55px;
 }
 
 .btn-big{
@@ -112,6 +115,7 @@ COMMON RULES
 
 body{
     position: relative;
+    line-height: 2rem;
 }
 
 .flex{
@@ -131,6 +135,10 @@ body{
     padding: 20px;
 }
 
+.text-center{
+    text-align: center;
+}
+
 
 
 
@@ -141,7 +149,7 @@ body{
     top: 0;
     left: 0;
     z-index: 9999;
-    width: 100%;
+    width: 100vw;
     background-color: var(--primary-color);
 }
 
@@ -166,11 +174,32 @@ main{
     width: 100%;
 }
 
+
+/*tools*/
 #tools .card{
     margin: 15px 0;
     background-color: var(--primary-color-light);
 }
 
+#tools img{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+#tools .card .col > div, #tools .card .col > img{
+    margin: 20px 20px 0 20px;
+}
+
+#tools .card > div{
+    padding: 20px;
+}
+
+#tools .icon > i{
+    font-size: 85px;
+}
+
+/*planning*/
 #planning {
     background-color: var(--secondary-color);
 }
@@ -179,10 +208,12 @@ main{
     margin: 10px 0;
 }
 
+/*testimonials*/
 #testimonials .container > div{
     margin: 10px 0;
 }
 
+/*benefits*/
 #benefits{
     background-color: var(--secondary-color);
 }
@@ -195,13 +226,14 @@ main{
     margin: 20px 0;
 }
 
-.col-left > div, .col-right > div{
+/*about us*/
+#about-us .col-left > div,#about-us .col-right > div{
     margin-top: 20px;
 }
 
+/*get started*/
 #get-started{
     background-color: var(--secondary-color);
-    text-align: center;
 }
 
 #get-started .container{
@@ -211,14 +243,19 @@ main{
     margin-top: 20px;
 }
 
+
+
+/*Footer*/
 footer{
     background-color: var(--tertiary-color);
-    text-align: center;
 }
 
 footer div{
     padding: 15px;
 }
+
+
+
 /******************************************
 RESPONSIVE RULES
 ******************************************/
