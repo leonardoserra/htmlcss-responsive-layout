@@ -1,5 +1,5 @@
 /******************************************
-GLOBAL RULES
+RESET RULES
 ******************************************/
 
 *, *::before, *::after {
@@ -32,7 +32,7 @@ DEBUG RULES
     border: 1px dashed red;
 }
 /******************************************
-STYLE RULES
+UTILITY RULES
 ******************************************/
 
 
@@ -43,23 +43,58 @@ STYLE RULES
     --secondary-color: #9792e4;
     --secondary-color-light: #bcb5ee;
     --tertiary-color: #333333;
+    --white: #fff;
+    --black: #101010;
+    --yellow: #fdc15f;
 }
-/*************************/
+
+
+
 
 /*text palette colori*/
-.white-text{
-    color:#ffffff;
-}
-/*************************/
 
+.white-text{
+    color:var(--white);
+}
+
+.black-text{
+    color:var(--black);
+}
+
+.purple-text{
+    color:var(--secondary-color);
+}
+
+
+
+
+/*Button Rules*/
+
+.btn{
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 5px 15px;
+}
+
+.btn-white{
+    background-color: var(--white);
+}
+
+.btn-blue{
+    background-color: var(--primary-color);
+}
+
+.btn-purple{
+    background-color: var(--secondary-color);
+}
+
+
+/******************************************
+COMMON RULES
+******************************************/
 
 body{
     position: relative;
-}
-
-main{
-    padding-top:100px;
-    width: 100%;
 }
 
 .flex{
@@ -74,6 +109,16 @@ main{
     align-items: center;
 }
 
+.container{
+    margin: auto;
+    padding: 20px;
+}
+
+
+
+
+/*****HEADER RULES******/
+
 #header-intro{
     position: fixed;
     top: 0;
@@ -83,6 +128,10 @@ main{
     background-color: var(--primary-color);
 }
 
+#header-intro .container{
+    padding: 20px 35px;
+}
+
 #header-intro i{
     font-size: 25px;
 }
@@ -90,9 +139,14 @@ main{
 #header-intro ul{
     display: none;
 }
-.container{
-    margin: auto;
-    padding: 20px;
+
+
+
+/*****MAIN RULES******/
+
+main{
+    padding-top:100px;
+    width: 100%;
 }
 
 #tools .card{
@@ -222,9 +276,7 @@ DESKTOP
 
 
 @media screen and (min-width: 1200px) {
-    #header-intro .container{
-        padding: 20px 36px;
-    }
+    
     .container{
         max-width: 1170px;
     }
