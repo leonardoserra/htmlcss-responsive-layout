@@ -87,7 +87,9 @@ main{
     font-size: 25px;
 }
 
-
+#header-intro ul{
+    display: none;
+}
 .container{
     margin: auto;
     padding: 20px;
@@ -153,64 +155,64 @@ RESPONSIVE RULES
 TABLET
 ******/
 @media screen and (min-width: 780px) {
-   .container{
+    .container{
         max-width: 760px;  
     
-   }
+    }
 
-  #tools .cards{
+    #tools .cards{
         display: flex;
         flex-wrap: wrap;
-   }
+    }
 
-   #tools .card{
+    #tools .card{
         width: calc(100% / 3 - 30px);
         margin: 15px;
     }
    
 
-   #tools .card:first-child{
+    #tools .card:first-child{
         width: calc(100% / 3 * 2 - 30px);
-   }
+    }
 
-   #testimonials .columns{
-    display: flex;
-   }
+    #testimonials .columns{
+        display: flex;
+    }
 
-   #testimonials .col-right{
-    flex-grow: 1;
-   }
+    #testimonials .col-right{
+        flex-grow: 1;
+    }
 
-   #testimonials .col-left{
-    min-width: calc(100% / 3);
-   }
+    #testimonials .col-left{
+        min-width: calc(100% / 3);
+    }
 
-   #benefits .cards{
-    display: flex;
-    flex-wrap: wrap;
-   }
+    #benefits .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
 
    #benefits .card{
-    width: calc(50% - 20px);
-    margin-left: 10px;
-    margin-right: 10px;
+        width: calc(50% - 20px);
+        margin-left: 10px;
+        margin-right: 10px;
    }
 
    #benefits .card-box{
-    margin: 0 -20px;
+        margin: 0 -20px;
    }
 
-   #about-us .columns{
-    display: flex;
-   }
+    #about-us .columns{
+        display: flex;
+    }
 
-   #about-us .col-left{
-    flex-grow: 1;
-   }
+    #about-us .col-left{
+        flex-grow: 1;
+    }
 
-   #about-us .col-right{
-    min-width: calc(100% / 3) ;
-   }
+    #about-us .col-right{
+        min-width: calc(100% / 3) ;
+    }
 }
 
 
@@ -220,8 +222,30 @@ DESKTOP
 
 
 @media screen and (min-width: 1200px) {
+    #header-intro .container{
+        padding: 20px 36px;
+    }
     .container{
-        max-width: 95%;   
+        max-width: 1170px;
+    }
+
+    #header-intro i{
+        display: none;
+    }
+
+    #header-intro ul{
+        display: block;
+    }
+    #header-intro ul li{
+        margin: 0 0 0 25px;
+        display: inline-block;
+        text-decoration: none;
+
+    }
+    #header-intro ul a{
+        font-size: 18px;
+        text-decoration: none;
+
     }
 
     #tools .card:first-child{
