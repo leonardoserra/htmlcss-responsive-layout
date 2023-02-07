@@ -330,6 +330,7 @@ section{
 }
 
 #about-us .icon{
+    position: relative;
     width: 190px;
     height: 190px;
 }
@@ -339,8 +340,8 @@ section{
     border-radius: 50%;
 }
 
-#about-us .icon{
-    position: relative;
+#about-us h3{
+    padding: 20px 0;
 }
 
 #about-us i{
@@ -348,6 +349,10 @@ section{
     top: 5px;
     right: 0;
     z-index: 10;
+}
+
+#about-us .col-left > div, #about-us .col-right > div{
+    padding: 20px 0;
 }
 
 
@@ -385,7 +390,7 @@ TABLET
 ******/
 @media screen and (min-width: 780px) {
     .container{
-        max-width: 760px;  
+        max-width: 730px;  
     
     }
 
@@ -440,6 +445,7 @@ TABLET
 
     #about-us .columns{
         display: flex;
+        gap: 50px;
     }
 
     #about-us .col-left{
@@ -504,4 +510,8 @@ DESKTOP
     #benefits .card{
         width: calc(100% / 3 - 20px)
        }
+
+    #about-us .columns .col-right{
+        padding-right: 100px;
+    }
  }
