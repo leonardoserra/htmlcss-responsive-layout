@@ -62,8 +62,17 @@ UTILITY RULES
     padding: 0;
 }
 
+.small-title{
+    font-size: 25px;
+}
+
 .big-title{
     font-size: 50px;
+    line-height: 3rem;
+}
+
+.huge-title{
+    font-size: 70px;
 }
 
 /*var palette colori*/
@@ -84,23 +93,31 @@ UTILITY RULES
 /*text palette colori*/
 
 .white-text{
-    color:var(--white);
+    color: var(--white);
 }
 
 .black-text{
-    color:var(--black);
+    color: var(--black);
 }
 
 .blue-text{
-    color:var(--primary-color);
+    color: var(--primary-color);
 }
 
 .purple-text{
-    color:var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+.purple-light-text{
+    color: var(--secondary-color-light);
 }
 
 .grey-text{
-    color: var(--tertiary-color)
+    color: var(--tertiary-color);
+}
+
+.yellow-text{
+    color: var(--yellow);
 }
 
 
@@ -359,14 +376,13 @@ section{
 /*get started*/
 #get-started{
     background-color: var(--secondary-color);
+    margin: 20px auto 0 auto;
 }
 
-#get-started .container{
-    margin:20px 0;
+#get-started .container > div{
+    padding: 30px 0;
 }
-#get-started div{
-    margin-top: 20px;
-}
+
 
 
 
