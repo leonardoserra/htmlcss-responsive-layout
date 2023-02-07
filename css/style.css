@@ -46,6 +46,11 @@ STYLE RULES
 }
 /*************************/
 
+/*text palette colori*/
+.white-text{
+    color:#ffffff;
+}
+/*************************/
 
 
 body{
@@ -77,6 +82,11 @@ main{
     width: 100%;
     background-color: var(--primary-color);
 }
+
+#header-intro i{
+    font-size: 25px;
+}
+
 
 .container{
     margin: auto;
