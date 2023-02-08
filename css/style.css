@@ -449,12 +449,13 @@ TABLET
 
     #testimonials .columns{
         display: flex;
-        gap: 25px;
+        gap: 60px;
     }
 
     #testimonials .col-right{
         flex-grow: 1;
         align-self: center;
+        text-align: left;
     }
 
     #testimonials .col-left{
