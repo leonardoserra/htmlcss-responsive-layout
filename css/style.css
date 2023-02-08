@@ -266,7 +266,7 @@ section{
 }
 
 #img-planning-2{
-    width: 100%;
+    max-width: 100%;
 }
 
 #planning .card{
